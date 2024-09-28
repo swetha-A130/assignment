@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Startup Website</title>
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="logo">Startup Logo</div>
+        <ul class="nav-links">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#table">Table</a></li>
+        </ul>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="intro-content">
+            <h1>Welcome to Our Startup</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+            <button>Login</button>
+        </div>
+        <div class="intro-image">
+            <img src="jeff-bezos.jpg" alt="Jeff Bezos">
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit Form</button>
+        </form>
+    </section>
+
+    <!-- Table Section -->
+    <section id="table" class="table-section">
+        <h2>Our Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Company</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>CEO</td>
+                    <td>Example Inc.</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>CTO</td>
+                    <td>Sample LLC</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">End of Data</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+</body>
+</html>
